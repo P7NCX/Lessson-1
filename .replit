@@ -1,4 +1,8 @@
 modules = ["web"]
+run = "new paragraph created"
 
 [nix]
 channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "new paragraph created"]
